@@ -1,7 +1,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    color: #777777;
+    font-size: 14px;
+    line-height: 2;
+    color:black;
     background: #4aaaa5;
     background-image: url("../images/dark-paths.png"); 
   }
@@ -20,12 +21,13 @@ body {
    #main-container {
     padding-top: 80px;
   } 
+  
 
   .main-section {
     text-align: left;
     overflow: auto;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #666699;
     border-color: #dddddd;
     border: 1px solid;
     margin-top: 40px;
@@ -34,6 +36,9 @@ body {
     max-width: 960px;   
     margin-left: auto;
     margin-right: auto; 
+    position: relative;
+    
+   
   }
   
   header {
@@ -83,7 +88,8 @@ body {
     display: inline-block;
     border-right: 1px  solid #bbb;
     padding: 0px 15px;      
-    border-radius: 0px;     
+    border-radius: 0px;    
+    margin-top: 15px; 
   } 
 
   #links-last-child {
@@ -92,17 +98,30 @@ body {
     border-right: 0 none;
   }
 
-  h1,
-  h2,
-  h3 {
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-weight: 700;
-  color: #4aaaa5;
+  
+   h2
+  {
+    font-size: 20px;
+    color: black;
   }
 
   h1 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+   font-weight: 700;
+   color: #4aaaa5;
     font-size: 24px;
-    margin: 20px 0;
+    margin: -20px;
+    background-color: white;
+    width: 100%;
+    max-width: 960px; 
+    height: 125px;
+    line-height: 150px;
+    position: absolute;
+    /* z-index: 99; */
+    text-indent: 20px;
+    /* right: 2%; */
+    top: 0%;
+
   }   
       
    div {
@@ -113,31 +132,28 @@ body {
   hr {
     border: 1px solid #777777;
     border-radius: 10px;
-  }
-  
-  #main-bio,
-  #bio-image {
-    float: left;
-    background-color: #ffffff
-  }
-  
-  #main-bio {
-    width: 100%;
-  }
-  
-  #bio-image {
-    width: 30%;
-    height: auto;
-    margin-right: 20px;
-    margin-top: 10px;  
+    background-color: white;
+    top: 70px;
+    position: absolute;
+    max-width: 960px; 
+    width: 95%;
+    height: 2px;
+    
+    
+
   }
 
-#bio-text {
-  margin-right: 20px;
-  
-  
-  
-}
+  #game {
+    background-color: #DDDDEE;
+    margin-top: 105px;
+    padding: 20px;
+    width: 95%;
+    max-width: 960px; 
+    top: 125px;
+   
+    
+
+  }
 
 footer {
       background-color: #666666;
@@ -150,36 +166,7 @@ footer {
       text-align: center;
       font-size: 12px;
       height: 50px;
-  }
-form {
-    margin: 20px;
-}  
-  
-input[type=text], select, textarea {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    font-family: Arial, Helvetica, sans-serif;
-    resize: vertical;
-  }
-  
-  input[type=submit] {
-    background-color: #4aaaa5;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-    input[type=submit]:hover {
-    background-color: #043634;
-    font-family: Arial, Helvetica, sans-serif;
+      line-height: 3;
   }
   
   .row {

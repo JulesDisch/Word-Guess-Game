@@ -1,4 +1,4 @@
-var bands = ["nirvana", "soundgarden", "garbage", "sublime", "oasis", "everclear"];
+var bands = ["nirvana", "soundgarden", "garbage", "sublime", "oasis", "everclear", "weezer", "tool", "bush"];
 var band;
 var GuessedArray;
 var blanks;
