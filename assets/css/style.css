@@ -136,7 +136,6 @@ nav a:hover:not(.active) {
 h1,
 h2,
 h3 {
-  
   font-weight: 700;
   color: #4aaaa5;
 }
@@ -152,11 +151,8 @@ h2 {
   font-weight: 500;
   font-size: 22px;
   border: 1px solid #8383c1;
-  /* height: 50px; */
-  /* width: 95%; */
   font-family: Verdana, Arial;
   color: white;
- 
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
@@ -164,7 +160,6 @@ h2 {
 }
 
 #workKey{
-  
   color: black;
   border-radius: 0px;
   font-weight: 500;
@@ -191,19 +186,18 @@ hr {
   border-radius: 10px;
 }
 
-
 #score {
   border: 1px solid #8383c1;
   height: 60px;
   margin-bottom: 20px;
   border-radius: 0px;
-   max-width: 960px; 
-   font-family: Verdana, Arial;
-   color: white;
-   padding-top: 20px;
-   padding-bottom: 20px;
-   background-color: #99c;
-   font-size: 15px;
+  max-width: 960px; 
+  font-family: Verdana, Arial;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #99c;
+  font-size: 15px;
 }
 
 #score .column-1 {
@@ -252,13 +246,13 @@ hr {
 
 .modal-content {
   background-color:#DDDDEE;
-  
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
   width: 50%;
   text-align: center;
 }
+
 .modal-content h3 {
   color: black;
   padding-bottom: 10px;
@@ -279,30 +273,21 @@ hr {
   text-decoration: none;
   cursor: pointer;
 }
-
-
-
-  
-
     
 #az {
   border: 0 none;
   opacity: 0.8;
   width: 40px;
   height: 40px;
- }
+}
   
 button {
   color: #fff;
-    background-color: #77c;
-    border-color: #6464c5;
- 
- 
+  background-color: #77c;
+  border-color: #6464c5;
   padding: 5px;
   margin: 5px; 
 }
-
-
 
 footer {
   background-color: #666666;
@@ -322,143 +307,50 @@ footer p {
   margin-bottom: 12px;
 }
 
-
- #title {
-   
-   border-radius: 0px;
-   max-width: 960px; 
-   top: 125px;
-   font-family: Verdana, Arial;
-   color: white;
-   margin-top: 30px;
-   padding-left: 20px;
-   background-color: #99c;
-   height: 50px;
- }
- 
- #title a {
-    display: inline;
-   font-family: Verdana, Arial;
-   color: white; }
- 
- .column-1 {
-   height: 50px;
-   padding: 5px;
-   float: left;
- }
- 
- .column-2 {
+#title {
+  border-radius: 0px;
+  max-width: 960px; 
+  top: 125px;
+  font-family: Verdana, Arial;
+  color: white;
+  margin-top: 30px;
+  padding-left: 20px;
+  background-color: #99c;
   height: 50px;
-   padding:10px;
-   float: left;
- }
+}
  
- .column-3 {
+#title a {
+  display: inline;
+  font-family: Verdana, Arial;
+  color: white; 
+}
+ 
+.column-1 {
   height: 50px;
-   padding: 10px;
-   float: left;
+  padding: 5px;
+  float: left;
+}
+ 
+.column-2 {
+  height: 50px;
+  padding:10px;
+  float: left;
+}
+ 
+.column-3 {
+  height: 50px;
+  padding: 10px;
+  float: left; 
+} 
+ 
+#game {
+  background-color: #DDDDEE;
+  background-size: auto;
+  margin-top: 20px;
+  max-width: 960px; 
+  top: 125px;
+}
    
- }
- 
- 
-   #game {
-     background-color: #DDDDEE;
-     background-size: auto;
-     margin-top: 20px;
-     max-width: 960px; 
-     top: 125px;
-   }
- 
-   footer {
-     background-color: #666666;
-     position: fixed;
-     width: 100%;
-     border-top: 8px solid #4aaaa5;
-     left: 0;
-     bottom: 0;
-     color: white;
-     text-align: center;
-     font-size: 12px;
-     height: 50px;
- }
- 
-   footer p {
-     margin-top: 12px;
-     margin-bottom: 12px;
-   }
-   
-   
- 
-  /* @media screen and (max-width: 980px) {
-    .header {
-      width: 980px;
-    }
-    .main-section {
-      width: 55%;
-      margin-left: 30px
-     }
- 
-     @media screen and (max-width: 768px) {
- 
-       .main-section {
-         width: 100%;
-         margin-left: 0px
-       }
-       #bio-image {
-         width: 50%;
-     }
-   }
- 
-    @media screen and (max-width: 640px) {
-      
-     #main-container {
-       padding-top: 0px;
-     } 
-     
-     header {
-         position: static;
-         width: 640px;
-         width: 100%;   
-       }
- 
-       #logo {
-         width: 100%;
-         margin-left: 0px;
-         clear: both; 
-       }
- 
-       nav {
-         margin: auto;
-         width: 100%;
-         text-align: center;          
-       }  
- 
-       .main-section {
-         width: 100%;
-         margin-left: 0px
-       }
- 
-       #bio-image {
-         width: 100%;
-         margin-bottom: 10px;
-       }
-     .column-1 {
-         width: 100%;
-         padding: 0 0 0 0;
- 
-       }
-       .column-2 {
-         width: 100%;
-         padding: 0 0 0 0;
- 
-       }
-         
-       }
- 
- 
- 
-     } */
-  
 @media screen and (max-width: 768px) {
   .main-section {
     width: 100%;
@@ -468,7 +360,6 @@ footer p {
   .column-3 {
     width: 100%;
   }
-
 }
 
 @media screen and (max-width: 640px) { 
@@ -503,9 +394,4 @@ footer p {
     width: 100%;
     margin-left: 0px
   }
-
-  
-  
-} 
-
-
+}
