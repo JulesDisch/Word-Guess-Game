@@ -2,55 +2,166 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Word Guess | Julia Dischell</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
-    <link rel="manifest" href="assets/images/site.webmanifest">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Word Guess | Julia Dischell</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+  <link rel="manifest" href="assets/images/site.webmanifest">
 
 </head>
 <!-- Site Header -->
 
 <header>
-    <div class="container">
-        <a id="logo" href="#">Julia Dischell</a>
-        <nav>
-            <ul>
-                <li class="links"><a href="../Responsive-Portfolio/index.html">About</a></li>
-                <li class="links"><a href="../Responsive-Portfolio/portfolio.html">Portfolio</a></li>
-                <li id="links-last-child"><a href="../Responsive-Portfolio/contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
+  <div class="navbar">
+    <a id="logo" href="#">Julia Dischell</a>
+    <nav>
+      <div class="dropdown">
+        <button class="dropbtn"><a href="../Responsive-Portfolio/index.html">About</a>
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="https://www.linkedin.com/in/juliadischell/">LinkedIn</a>
+          <a href="assets/images/JDresume2019.pdf">Resume</a>
+          <a href="https://github.com/JulesDisch">GitHub</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn"> <a href="../Responsive-Portfolio/contact.html">Contact</a>
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="mailto:jmdischell@gmail.com">Email</a>
+          <a href="tel:12158962289">Call</a>
+        </div>
+      </div>
+      <a href="../Responsive-Portfolio/portfolio.html">Portfolio</a>
+
+    </nav>
+  </div>
 </header>
 
+
 <body>
-    <div id="main-container" class="container">
-        <section class="main-section">
-            <h1>Portfolio</h1>
-            <hr>
-            <div id="game">
-                <h2>Word Guess Game</h2>
-                <p id="Directions-text"> Press any key to get started!</p>
-                <p id="wins-text"></p>
-                <p id="losses-text"></p>
-                <p id="currentWord-text">Current Word</p>
-                <p id="blanks-text"> </p>
-                <p id="guesses-text"> Guesses remaining:</p>
-                <p id="GuessedArray-text">Letters already guessed:</p>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Portfolio</h1>
+      <hr>
+      <div id="game">
+        <div id="title">
+          <div class="row">
+            <div class="column-1"> <img id = "az" alt="AZLyrics.com" src="assets/images/az_logo_tr.png"></div>
+            <div class="column-2">
+              <ul id="artists-collapse">
+                <li>
+                  <div role="group">
+                    <a href="https://www.azlyrics.com/a.html">A</a>
+                    <a href="https://www.azlyrics.com/b.html">B</a>
+                    <a href="https://www.azlyrics.com/c.html">C</a>
+                    <a href="https://www.azlyrics.com/d.html">D</a>
+                    <a href="https://www.azlyrics.com/e.html">E</a>
+                    <a href="https://www.azlyrics.com/f.html">F</a>
+                    <a href="https://www.azlyrics.com/g.html">G</a>
+                    <a href="https://www.azlyrics.com/h.html">H</a>
+                    <a href="https://www.azlyrics.com/i.html">I</a>
+                    <a href="https://www.azlyrics.com/j.html">J</a>
+                    <a href="https://www.azlyrics.com/k.html">K</a>
+                    <a href="https://www.azlyrics.com/l.html">L</a>
+                    <a href="https://www.azlyrics.com/m.html">M</a>
+                    <a href="https://www.azlyrics.com/n.html">N</a>
+                    <a href="https://www.azlyrics.com/o.html">O</a>
+                    <a href="https://www.azlyrics.com/p.html">P</a>
+                    <a href="https://www.azlyrics.com/q.html">Q</a>
+                    <a href="https://www.azlyrics.com/r.html">R</a>
+                    <a href="https://www.azlyrics.com/s.html">S</a>
+                    <a href="https://www.azlyrics.com/t.html">T</a>
+                    <a href="https://www.azlyrics.com/u.html">U</a>
+                    <a href="https://www.azlyrics.com/v.html">V</a>
+                    <a href="https://www.azlyrics.com/w.html">W</a>
+                    <a href="https://www.azlyrics.com/x.html">X</a>
+                    <a href="https://www.azlyrics.com/y.html">Y</a>
+                    <a href="https://www.azlyrics.com/z.html">Z</a>
+                    <a href="https://www.azlyrics.com/19.html">#</a>
+                  </div>
+                </li>
+              </ul>
             </div>
-        </section>
-    </div>
-    <script type="text/javascript" src="assets/javascript/game.js"></script>
-    <footer>
-        <p>© 2019</p>
-    </footer>
+            <div class="column-3">
+            </div>
+          </div>
+        </div>
+        
+        <h2> 90s Bands Word Guess Game</h2>
+        <div id = "workKey">
+        <p id="Directions-text"> Press any key to get started!</p>
+        <br>
+        <p id="currentWord-text">Current Word</p>
+        <br>
+        <p id="blanks-text"> </p>
+        <button id = "start">Play again?</button>
+      </div>
+        <h2 id="GuessedArray-text">Letters already guessed:</h2>
+        <div id="score">
+          <div class="row">
+            <div class="column-1">
+              <p><span id="wins-text"></span></p>
+            </div>
+            <div class="column-2">
+              <p><span id="losses-text"></span></p>
+            </div>
+            <div class="column-3">
+              <p><span id="guesses-text"> Guesses remaining:></span></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <br>
+      <a href="https://github.com/JulesDisch/Word-Guess-Game">Find on GitHub</a>
+    </section>
+  </div>
+
+  <div id="youWin" class="modal">
+      <div class="modal-content">
+          <h3>You win!</h3>
+          <div id = "band-image"></div>
+          <button id="continue">Keep playing</button>
+          <button id="over">Game over!</button>
+      </div>
+  </div>
+
+  <div id="youLose" class="modal">
+      <div class="modal-content">
+          <h3>You lose!</h3>
+          <h3 id = "answer"> </h3>
+          <div id = "band-image2"></div>
+          <button id="cont"> OK</button>
+          <button id="over1">Game over!</button>
+      </div>
+  </div>
+
+  <div id="game-over" class="modal">
+      <div class="modal-content">
+          <span class="close">&times;</span>
+        <h3 id = "winOrLose"></h3>
+        <h3 id = "answer2"> </h3>
+          <div id = "band-image3"></div>
+          <h3>Game over!</h3>
+          <button id="ok"> Get your score</button>
+      </div>
+  </div>
+  <script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+ 
+  <footer>
+    <p>© 2019</p>
+  </footer>
 </body>
 
 </html>
